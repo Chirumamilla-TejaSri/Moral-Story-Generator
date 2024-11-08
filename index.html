@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moral Story Generator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>🌟 Moral Story Generator 🌟</h1>
+
+    <label for="hero">Choose a Hero:</label>
+    <select id="hero">
+      <option value="A Honest Farmer">A Honest Farmer</option>
+      <option value="A Kind-hearted Girl">A Kind-hearted Girl</option>
+      <option value="A Brave Knight">A Brave Knight</option>
+      <option value="A Wise Old Man">A Wise Old Man</option>
+      <option value="A Clever Squirrel">A Clever Squirrel</option>
+      <option value="A Generous King">A Generous King</option>
+      <option value="A Patient Mother">A Patient Mother</option>
+      <option value="A Determined Young Boy">A Determined Young Boy</option>
+    </select>
+
+    <label for="location">Choose a Location:</label>
+    <select id="location">
+      <option value="a Peaceful Village">A Peaceful Village</option>
+      <option value="a Tranquil Forest">A Tranquil Forest</option>
+      <option value="a Bustling Marketplace">A Bustling Marketplace</option>
+      <option value="an Ancient Castle">An Ancient Castle</option>
+      <option value="a Serene Riverbank">A Serene Riverbank</option>
+      <option value="a Warm Hearth">A Warm Hearth</option>
+      <option value="a Blooming Garden">A Blooming Garden</option>
+      <option value="a Majestic Mountain">A Majestic Mountain</option>
+    </select>
+
+    <label for="magicalItem">Choose a Magical Item:</label>
+    <select id="magicalItem">
+      <option value="a Golden Grain">A Golden Grain</option>
+      <option value="a Silver Locket">A Silver Locket</option>
+      <option value="a Healing Herb">A Healing Herb</option>
+      <option value="a Magical Stone">A Magical Stone</option>
+      <option value="a Crystal Seed">A Crystal Seed</option>
+      <option value="a Book of Wisdom">A Book of Wisdom</option>
+      <option value="a Lantern of Truth">A Lantern of Truth</option>
+      <option value="a Cloak of Kindness">A Cloak of Kindness</option>
+    </select>
+
+    <label for="theme">Choose a Theme:</label>
+    <select id="theme">
+      <option value="friendship">Friendship</option>
+      <option value="courage">Courage</option>
+      <option value="honesty">Honesty</option>
+      <option value="kindness">Kindness</option>
+      <option value="perseverance">Perseverance</option>
+      <option value="teamwork">Teamwork</option>
+      <option value="gratitude">Gratitude</option>
+      <option value="generosity">Generosity</option>
+    </select>
+
+    <label for="storyLength">Choose Story Length:</label>
+    <select id="storyLength">
+      <option value="short">Short (1-2 paragraphs)</option>
+      <option value="medium">Medium (3-4 paragraphs)</option>
+      <option value="long">Long (5+ paragraphs)</option>
+    </select>
+
+    <button onclick="generateStory()">Generate Story</button>
+
+    <div id="storyOutput" class="story hidden"></div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
